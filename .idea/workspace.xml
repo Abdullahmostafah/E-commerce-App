@@ -5,40 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fb2bfd-9ef3-48d0-b5da-d180834449f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_ResetPassword.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_HoverCategories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_HomeSliders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F08_FollowUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F09_WishList.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/P01_Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/P02_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/P03_HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_registerStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D02_loginStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D03_resetStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D04_currenciesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D05_searchStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D06_hoverCategoriesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D07_homeSlidersStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D08_followUsStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D09_WishlistStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunners/Runners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ConfigReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D01_registerStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D02_loginStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D03_resetStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D04_currenciesStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D05_searchStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D08_followUsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D09_WishlistStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F01_Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F02_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F03_ResetPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F04_Currencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F05_Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_HoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F06_HoverCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_HomeSliders.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_FollowUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F08_FollowUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F09_WishList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/F09_WishList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/P01_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/P01_Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/P02_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/P02_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/P03_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/P03_HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D01_registerStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D02_loginStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D03_resetStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D04_currenciesStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D05_searchStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D06_hoverCategoriesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/D06_hoverCategoriesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D07_homeSlidersStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D08_followUsStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/D09_WishlistStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepDefinition/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestRunners/Runners.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +68,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Abdullahmostafah"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abdullahmostafah/E-commerce-App.git",
+    "accountId": "bb9ff439-99ef-4219-b80b-68a1ad6ecd0a"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2HxthUbNEngknWLUCU6jSEHUfNe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -68,15 +97,137 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: F01_Register.executor": "Run",
+    "Cucumber Java.Feature: F02_Login.executor": "Run",
+    "Cucumber Java.Feature: F03_ResetPassword.executor": "Run",
+    "Cucumber Java.Feature: F04_Currencies.executor": "Run",
+    "Cucumber Java.Feature: F05_Search.executor": "Run",
+    "Cucumber Java.Feature: F06_HoverCategories.executor": "Run",
+    "Cucumber Java.Feature: F07_HomeSliders.executor": "Run",
+    "Cucumber Java.Feature: F08_FollowUs.executor": "Run",
+    "Cucumber Java.Feature: F09_WishList.executor": "Run",
+    "Cucumber Java.Scenario: Guest user can register with valid data.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/Final-Ecommerce/src/main/resources"
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/abdul/IdeaProjects/E-commerce-App/TestNG.xml.executor": "Run",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/E-commerce-App/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\E-commerce-App\src\main" />
+      <recent name="C:\Users\abdul\IdeaProjects\E-commerce-App\src\test\resources" />
       <recent name="C:\Users\abdul\IdeaProjects\Final-Ecommerce\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\E-commerce-App\src\main\java" />
+      <recent name="C:\Users\abdul\IdeaProjects\E-commerce-App\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Feature: F07_HomeSliders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/F07_HomeSliders.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final-Ecommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F07_HomeSliders" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: F08_FollowUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/F08_FollowUs.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final-Ecommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F08_FollowUs" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: F09_WishList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/F09_WishList.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final-Ecommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F09_WishList" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/abdul/IdeaProjects/E-commerce-App/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final-Ecommerce" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final-Ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.C:/Users/abdul/IdeaProjects/E-commerce-App/TestNG.xml" />
+        <item itemvalue="Cucumber Java.Feature: F09_WishList" />
+        <item itemvalue="Cucumber Java.Feature: F07_HomeSliders" />
+        <item itemvalue="Cucumber Java.Feature: F08_FollowUs" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
